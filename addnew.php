@@ -102,7 +102,10 @@ if (isset($_POST['SaveResult'])) {
 
                         if ($mysqli->query($sql) === TRUE) {
 
-                            echo "New record created successfully";
+			echo '<script language="javascript">';
+				echo 'bootbox.alert("your submission was successful")';
+			echo '</script>';
+                           
 
                         } else {
 

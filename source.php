@@ -3,7 +3,7 @@ function ConnectToDb()
 {
 	
 	
-	$mysqli = new mysqli("localhost", "root", "", "bincom_test");
+	$mysqli = new mysqli("www.db4free.net", "nakinnubis", "yemo1234", "bincom_test");
 	
 	
 	

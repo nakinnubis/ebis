@@ -1,0 +1,41 @@
+#body{
+    display: flex;
+    max-width:90%;
+    min-width:90%;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    margin-left:auto;
+    margin-right:auto;
+}
+#top{
+    min-height: 200px;
+   box-sizing: border-box;
+   margin-top:25px;
+   margin-bottom: 25px;
+   font-size: 18px;
+   padding:25px;
+}
+#bottom{
+  min-height: 200px;
+   box-sizing: border-box; 
+   margin-bottom: 25px;
+   font-size: 18px;
+   padding:25px;
+}
+#addNew{
+    margin-top:80px;
+    width:1200px;
+}
+.mypanel{
+    padding: 50px;
+}
+#footer{
+    margin-top:20px;
+    background: #080030;   
+    color:#fff;
+    padding-top: 20px;    
+    height: 150px;
+}
