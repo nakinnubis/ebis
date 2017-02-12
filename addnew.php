@@ -8,7 +8,7 @@ include 'header.php';
  <div class="panel panel-default container row col-md-8 col-md-offset-2 mypanel">
     <div class="container row col-md-6 col-md-offset-3">
         <div class="form-horizontal">
-            <form class="role" action="3.php" method="POST">
+            <form class="role" action="addnew.php" method="POST">
                 <div class="form-group">
                     <input type="text" name="wardname" class="form-control" placeholder="Enter the ward name"
                            id="partscore"/>
@@ -103,7 +103,7 @@ if (isset($_POST['SaveResult'])) {
                         if ($mysqli->query($sql) === TRUE) {
 
 			echo '<script language="javascript">';
-				echo 'bootbox.alert("your submission was successful")';
+				echo 'alert("your submission was successful")';
 			echo '</script>';
                            
 

@@ -12,7 +12,7 @@ require 'header.php';
                 </ol>
                 <div class="carousel-inner">
                     <div class="item">
-                        <img data-src="images/word.png" alt="First slide" src="images/word.png">
+                        <img data-src="word.png" alt="First slide" src="word.png">
                         <div class="container">
                             <div class="carousel-caption">
                                          <!--<h1>Another example headline.</h1>
@@ -23,7 +23,7 @@ require 'header.php';
                         </div>
                     </div>
                     <div class="item active">
-                        <img data-src="images/word.png" alt="First slide" src="images/home2.jpg">
+                        <img data-src="home2.jpg" alt="First slide" src="home2.jpg">
                         <div class="container">
                             <div class="carousel-caption">
                                 <!--<h1>Another example headline.</h1>
